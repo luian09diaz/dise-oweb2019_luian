@@ -1,0 +1,61 @@
+*{
+    margin: 0; 
+     }
+     body { 
+         background: #BDC3C7;
+         font-family: Arial;
+     }
+     h1, h2, h3, h4, h5, h6 { 
+         color: #DC3522;
+     }
+     a{ 
+         color: #374140;
+     }
+     p { 
+         color: #2A2C2B;
+     }
+     #biography {
+         background: #df4230;
+     }
+    #reall_biography { 
+     background: #e14f3f;
+    }
+    #primeros_años_y_educacion{ 
+    background: #e45d4e
+    }
+    #carrera_profecional{ 
+        background: #e66a5c
+    }
+    #cine_y_televicion{ 
+        background: #e8786b;
+    }
+    #teatro{ 
+        background: #ea857a;
+    }
+    #vida_privada{ 
+        background: #ed9389;
+    }
+    p {
+        color: lightblue; 
+    }
+    p { 
+        color: brown;
+        font-size: 20px;
+    }
+    /* Luian wayne Inc. The reall ganstar! */
+    /* Herencia Wayne en CSS */
+    nav a {
+        color: dodgerblue;
+        padding: 5px;
+        margin: 10px;
+        border: solid 1px dodgerblue;
+        text-decoration:none;
+        text-transform:uppercase;
+        background: #fff;
+        display: inline-block;
+
+    }
+nav a:hover{
+    background: dodgerblue;
+    color: white;
+}
