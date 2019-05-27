@@ -1,0 +1,45 @@
+.pixel {
+    background: blue;
+    width: 200px;
+    height: 200px;
+}
+.pixel2 {
+    background: pink;
+width: 660px;
+height: 600;
+}
+.pixel3 {
+    background: greenyellow;
+    width: 390px;
+    height: 500px;
+}
+.pixel4 {
+    background: purple;
+    width: 450px;
+    height: 490px;
+}
+.pixel5 {
+    background: olive;
+    width: 450;
+    height: 490;
+}
+.relativo_pixel {
+    font-size: 20px;
+}
+.porciento {
+    background: chocolate;
+    width: 50%;
+    height: 50%;
+}
+.porciento2 {
+    background: red;
+    width: 75%;
+   margin: 20px;
+}
+.porciento3 {
+background:gold;
+width: 100%;
+}
+body{
+    width: 50%;
+}
