@@ -1,0 +1,15 @@
+/* Resert*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial;
+}
+a{
+    text-decoration: none;
+}
+.fullscreem{
+    width: 100vw;
+    height: 100vh;
+}
