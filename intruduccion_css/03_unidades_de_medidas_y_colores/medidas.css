@@ -49,3 +49,47 @@ body{
 .size_pt{font-size: 10pt;}
 .size_porciento{font-size: 10%;}
 .size_ex{font-size: 10ex;}
+.size_cm{
+    width: 5cm;
+    height: 5cm;
+    background: cadetblue;
+    margin: 1em;
+}
+.size_mm{
+    width: 5mm;
+    height: 5mm;
+    background: cyan;
+    margin: 1em;
+}
+.size_pt{
+    width: 5pt;
+    height: 5pt;
+    background: chocolate;
+    margin: 1em;
+}
+.size_in{
+    width: 5in;
+    height: 5in;
+    background: coral;
+    margin: 1em;
+}
+.size_5x5{
+    width: 5px;
+    height: 5px;
+    background: red;
+}
+.size_50x50{
+    width: 50px;
+    height: 50px;
+    background: gold;
+}
+.size_100x100{
+    width: 100px;
+    height: 100px;
+    background: green;
+}
+.size_200x200{
+    width: 200px;
+    height: 200px;
+    background: gray;
+}
