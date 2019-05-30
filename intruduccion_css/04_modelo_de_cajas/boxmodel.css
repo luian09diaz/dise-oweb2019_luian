@@ -14,8 +14,8 @@ body{
 /*Estilo para el nav*/
 nav{
     background: #3f85df;
-    width: 400px;
-    height: 100vh;
+    width: 100VW;
+    height: 80PX;
 }
 nav h1, nav a {
     color: white;
@@ -32,6 +32,7 @@ nav ul li  {
     padding-left: 30px;
     padding-right: 30px;
     border: solid 1px; #707070;
+    display: inline-block;
 }
 nav h1{
     padding-top: 30px;
@@ -39,4 +40,36 @@ nav h1{
     padding-left: 30px;
     padding-right: 0;
     font-weight: normal;
+}
+nav li.active{
+    background: rgba(0,0,0,0.5);
+}
+nav h1{
+    display:none;
+}
+aside img{
+    width: 800px;
+    height: 500px;
+}
+div{
+    display: inline;
+}
+img{
+    display: ;
+    padding: 10px;
+    margin: 10px;
+}
+h1{
+    font-weight: normal;
+    height: 60px;
+}
+span{
+    padding-right: 10px;
+
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    flex: 1;
 }
