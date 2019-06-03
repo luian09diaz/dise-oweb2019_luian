@@ -1,34 +1,195 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    <link rel="stylesheet" href="whatsapp.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>whatsApp</title>
+	<!-- Hojas de estilo -->
+	<link rel="stylesheet" type="text/css" href="whatsapp.css">
+	<!-- Scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdn.rawgit.com/asvd/dragscroll/master/dragscroll.js"></script>
+	<title>WhatsApp</title>
 </head>
 <body>
-    <div class="container">
-        <div class="title_bar">
-            <div class="title_top">
-                <div class="tab_menu">
-                    <div class="title_container">
-                        <p>WhatsApp</p>
-                    </div>
-                    <div class="icon_container">
-                    <div> <img src="../reto_del_teacher/images/menu.png" alt="menu"></div>
-                    <div><img src="../reto_del_teacher/images/search.png" alt="buscar"></div>
-                </div>
-            </div>
-            <div class="tab_menu">
-            <p class="single_tab">Chats</p>
-            <p class="single_tab">Status</p>
-            <p class="single_tab">Calls</p>
-            </div>
+	<div class="container">
 
+	<!-- Menú desplegable -->
+	<div class="dropdown_menu">
+		<p class="dropdown_item">New group</p>
+		<p class="dropdown_item">New broadcast</p>
+		<p class="dropdown_item">WhatsApp Web</p>
+		<p class="dropdown_item">Starred Messages</p>
+		<p class="dropdown_item">Settings</p>
+	</div>
 
-        </div>
-    </div>
-    
+	<!-- Barra de búsqueda -->
+	<div class="back_trigger"></div>
+	<input type="text" class="search_bar">
+
+	<!-- Caja de luz -->
+	<div class="lightbox">
+		<div class="lightbox_container">
+			<h1 class="lightbox_name">Marc</h1>
+
+			<div class="lightbox_image">
+				<img src="images/chats/chat2.jpg">
+			</div>
+
+			<div class="lightbox_controls">
+				<div class="one_control"><img src="images/icons/chat.png"></div>
+				<div class="one_control"><img src="images/icons/phone.png"></div>
+				<div class="one_control"><img src="images/icons/video.png"></div>
+				<div class="one_control"><img src="images/icons/info.png"></div>
+			</div>
+		</div>
+	</div>
+
+		<div class="title_bar">
+			<div class="title_top">
+				<div class="title_container">
+					<p>WhatsApp</p>
+				</div>
+
+				<div class="icon_container">
+					<div><img src="images/menu.png"></div>
+					<div><img src="images/search.png"></div>
+				</div>
+			</div>
+
+			<div class="tab_menu">
+				<p class="single_tab active">CHATS</p>
+				<p class="single_tab">STATUS</p>
+				<p class="single_tab">CALLS</p>
+			</div>
+		</div>
+
+		<div class="messages_section dragscroll">
+
+			<div class="single_chat">
+				<div class="image_container">
+					<img src="images/chats/chat1.jpg">
+				</div>	
+
+				<div class="content_container">
+					<div class="content_container_inner">
+						<p class="user_name"><name>Luian</name> <span>11:45 AM</span></p>
+						<p class="chat_content">Pero papa y mi cualto... <span>3</span></p>
+					</div>
+				</div>
+			</div>
+
+			<div class="single_chat">
+				<div class="image_container">
+					<img src="images/chats/chat2.jpg">
+				</div>	
+
+				<div class="content_container">
+					<div class="content_container_inner">
+						<p class="user_name"><name>Henrry</name> <span>1:45 AM</span></p>
+						<p class="chat_content">Estevez dejo el cargador en la... <span>1</span></p>
+					</div>
+				</div>
+			</div>
+
+			<div class="single_chat">
+				<div class="image_container">
+					<img src="images/chats/chat3.jpg">
+				</div>	
+
+				<div class="content_container">
+					<div class="content_container_inner">
+						<p class="user_name"><name>Esmeralys</name> <span>11:21 AM</span></p>
+						<p class="chat_content">Perdon no avia visto tu mensaje...<span>1</span></p>
+					</div>
+				</div>
+			</div>
+
+			<div class="single_chat">
+				<div class="image_container">
+					<img src="images/chats/chat4.jpg">
+				</div>	
+
+				<div class="content_container">
+					<div class="content_container_inner">
+						<p class="user_name"><name>José</name> <span>7:23 AM</span></p>
+						<p class="chat_content">Viste el final de game of thrones... <span>3</span></p>
+					</div>
+				</div>
+			</div>
+
+			<div class="single_chat">
+				<div class="image_container">
+					<img src="images/chats/chat5.jpg">
+				</div>	
+
+				<div class="content_container">
+					<div class="content_container_inner">
+						<p class="user_name"><name>Familia</name> <span class="read">YESTERDAY</span></p>
+						<p class="chat_content">Donde fue que amaneciste...</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="single_chat">
+				<div class="image_container">
+					<img src="images/chats/chat6.jpg">
+				</div>	
+
+				<div class="content_container">
+					<div class="content_container_inner">
+						<p class="user_name"><name>Waily</name> <span class="read">TUESDAY</span></p>
+						<p class="chat_content">No te olvides de traerme mi cell..</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="single_chat">
+				<div class="image_container">
+					<img src="images/chats/chat7.jpg">
+				</div>	
+
+				<div class="content_container">
+					<div class="content_container_inner">
+						<p class="user_name"><name>Diaz</name> <span class="read">TUESDAY</span></p>
+						<p class="chat_content">Oye deje mi laptop en tu casa...</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="single_chat">
+				<div class="image_container">
+					<img src="images/chats/chat8.jpg">
+				</div>	
+
+				<div class="content_container">
+					<div class="content_container_inner">
+						<p class="user_name"><name>Miguel</name> <span class="read">MONDAY</span></p>
+						<p class="chat_content">Vi a mi vecina en la discoteca haha...</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="single_chat">
+				<div class="image_container">
+					<img src="images/chats/chat9.jpg">
+				</div>	
+
+				<div class="content_container">
+					<div class="content_container_inner">
+						<p class="user_name"><name>L.Wayne</name> <span class="read">SATURDAY</span></p>
+						<p class="chat_content">Cuadramos otro dia mi pana...</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="android_controls">
+			<div class="controls_inner">
+				<div><img src="images/android/back.png"></div>
+				<div><img src="images/android/menu.png"></div>
+				<div><img src="images/android/tab.png"></div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/script.js"></script>
 </body>
 </html>
