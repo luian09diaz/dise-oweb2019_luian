@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #e9e9e9;
+
+}
+
+.phone{
+    width: 280px;
+    height: 450px;
+    background: #fff;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.tab{
+    width: 100%;
+    height: 40px;
+    background: #054d44;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.tabs{
+    float: left;
+    text-align: center;
+    list-style: none;
+    line-height: 40px;
+    color: #fff;
+    width: 33.33%;
+    cursor: pointer;
+}
+
+.tabs:hover{
+    background: rgba(233, 233, 232, 0.096);
+}
+
+.active{
+    width: 90px;
+    height: 2px;
+    background: #eee;
+    margin-top: 38px;
+    position: absolute;
+}

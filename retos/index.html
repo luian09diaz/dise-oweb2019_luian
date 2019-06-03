@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Retos De Nuñez</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="phone">
+        <div class="tab">
+            <ul>
+                <li class="tabs one">Chats</li>
+                <li class="tabs two">Sattus</li>
+                <li class="tabs three">Calls</li>
+            </ul>
+            <div class="active"></div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function(){
+            $('.one').click(function(){
+                $('.active').animate({
+                    marginLeft: "0px"
+                });
+            });
+
+            $('.two').click(function(){
+                $('.active').animate({
+                    marginLeft: "90px"
+                });
+            });
+
+            $('.three').click(function(){
+                $('.active').animate({
+                    marginLeft: "190px"
+                });
+            });
+        });
+    </script>
+</body>
+</html>
