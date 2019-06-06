@@ -1,15 +1,18 @@
-/* Resert*/
-*{
+/* Reset */
+* {
     margin: 0;
     padding: 0;
 }
-body{
-    font-family: 'monserrat';
+
+body {
+    font-family: Arial;
 }
-a{
+
+a {
     text-decoration: none;
 }
-.fullscreem{
+
+.fullscreen {
     width: 100vw;
     height: 100vh;
 }
