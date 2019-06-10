@@ -15,6 +15,7 @@ var divContenido=document.querySelector("#contenido");
 //Registrar el evento al elemento
 parrafoMostrar.addEventListener("click",function(){
     divContenido.style.display =document.write(`<p>${nombre}</p>`)
-    var nombre=prompt("Digite su nombre");
+    var nombre=("Digite su nombre");
     divContenido.textContent = nombre;
+
 });
