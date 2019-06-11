@@ -1,0 +1,15 @@
+a{
+    text-decoration: none;
+    color: #AAA;
+}
+
+.fondo{
+    background-image:url("wy.png");
+    background-size: 15px;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}

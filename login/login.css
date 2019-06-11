@@ -1,0 +1,100 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div#cuadroazul {
+    height: 82px;
+    background-color: #405d9a;
+}
+
+body {
+    background-color: #dfe3ee;
+}
+
+.correocolor {
+    color: white;
+    margin-left: 30px;
+
+
+}
+
+.passcolor {
+    color: white;
+}
+
+.linkcontraolvid {
+    color: #AAA;
+}
+
+#correo {
+    margin-left: 30px;
+
+}
+
+h1 {
+    margin-top: 50px;
+    margin-left: 20px;
+    color: #203360;
+}
+
+h2 {
+    margin-top: 5px;
+    margin-left: 20px;
+    color: #203360;
+}
+
+form#nombre {
+    margin-top: 30ox;
+}
+
+form label {
+    color: #4d55ae;
+}
+
+a {
+    color: #3b5998;
+}
+
+.bg-blue {
+    background-color: #4267b2;
+    border-radius: 5%;
+    padding: 5px;
+}
+
+.bg-green {
+    background-color: #72ac58;
+    border-radius: 5%;
+
+}
+
+.btn {
+    color: #fff;
+}
+
+.form1 {
+    padding: 15px
+}
+
+/*
+.form2 {
+    padding: 10px 0px 5px 9%;
+}
+*/
+
+.nombr {
+    padding: 10px 0px 5px 9%;
+}
+
+.apell {
+    padding: 10px 0px 5px 8.2%;
+}
+
+.correoe {
+    font-size: 14px;
+}
+
+.contraspan {
+    padding: 10px 0px 5px 9%;
+}
