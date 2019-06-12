@@ -1,6 +1,18 @@
+/*Reset*/
+* {
+    margin: 0;
+    padding: 0;
+}
 a{
     text-decoration: none;
     color: #AAA;
+    padding-right: 15px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
 }
 
 .fondo{
@@ -8,8 +20,14 @@ a{
     background-size: 15px;
     background-repeat: no-repeat;
     padding-left: 20px;
+    color:black;
+    font-family: 'Lato',sans-serif;
 }
 
 body{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.color{
+    background: #7F3333
 }
