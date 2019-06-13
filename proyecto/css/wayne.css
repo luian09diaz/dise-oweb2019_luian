@@ -16,12 +16,13 @@ nav {
 }
 
 .fondo{
-    background-image:url("wy.png");
-    background-size: 15px;
+    background-image:url("../imagenes/wayne.png");
+    background-size: 20px;
     background-repeat: no-repeat;
-    padding-left: 20px;
-    color:black;
+    padding-left: 30px;
+    color:white;
     font-family: 'Lato',sans-serif;
+    margin: 10px;
 }
 
 body{
@@ -30,4 +31,13 @@ body{
 }
 .color{
     background: #7F3333
+}
+section > article{
+    display: flex;
+    justify-content: space-between;
+    /*align-items: center;*/
+}
+
+.left{
+    height: 100vh;
 }

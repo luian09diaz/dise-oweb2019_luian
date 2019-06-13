@@ -1,10 +1,11 @@
 html{
-    font-size: 16px;
+    font-size: 25px;
     font-family: 'Lato', sans-serif;
    
    }
    body{
-    background-color: #eb4343;
+   background-image:url("../imagenes/login.png");
+   background-repeat: no-repeat;
    }
    .cont1{
     max-width: 450px;
@@ -17,7 +18,7 @@ html{
     width: 100%;
     text-align: center;
     padding: 2rem 0 1rem;
-    border-top: solid .4rem #f39b53;
+    border-top: solid .4rem #7F3333;
     margin-bottom: 1rem;
    }
    .form-top h2{
@@ -27,7 +28,7 @@ html{
    
    }
    h2 span{
-    color: #f35353;
+    color: #7F3333;
    }
    .form-reg{
     padding: 0 2rem;
@@ -49,7 +50,7 @@ html{
     transition: all .5s;
    }
    .input:focus{
-    border-bottom: solid #f39b53 .2rem;
+    border-bottom: solid #7F3333 .2rem;
    }
    .btn-submit, .btn-reset{
     width: 40%;
@@ -58,12 +59,12 @@ html{
     color: white;
    }
    .btn-reset{
-    background-color: #eda135;
+    background-color: #7F3333;
    }
    .btn-submit:hover{
     background-color: #4c9ed9;
    
    }
    .btn-reset:hover{
-    background-color: #fa9535;
+    background-color: #7F3333;
    }
