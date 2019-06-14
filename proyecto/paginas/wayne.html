@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -8,13 +10,22 @@
     <link rel="stylesheet" href="../css/wayne.css">
     <link rel="icon" type="image/png" href="../imagenes/wy.png" />
 </head>
+
 <body>
     <!--Cabecera de la pagina-->
     <header class="color">
         <nav class="#">
-            <div> 
+            <div>
                 <span class="fondo">Wayne</span>
+
             </div>
+
+            
+            <div id="search-wrapper">
+                <input type="search" id="search" placeholder="Buscar" />
+                <i class="fa fa-search"></i>
+            </div>
+
             <div>
                 <a href="">Inicio</a>
                 <a href="">Perfil</a>
@@ -27,19 +38,33 @@
     <section class="container">
         <article>
             <aside class="left">Menu <br>
-                <a href="Juegos">Juegos</a>
+                <a href="#">Juegos</a>
                 <br>
-                <a href="Paginas">Paginas</a>
+                <a href="#">Paginas</a>
+                <br>
+                <a href="#">Grupos</a>
+                <br>
+                <a href="#">Infomacion</a>
+                <br>
+                <a href="#">Fotos</a>
+                <br>
+                <a href="#">Publicaciones</a>
             </aside>
-         
-            <div class="center">Centro de pagina</div> 
-         
+
+            <div class="center">
+                <button class="btn" onclick="myFunction()">Me gusta</button>Centro de pagina
+
+            </div>
+
             <aside class="right">Anuncios
                 <img src="../imagenes/heart.gif" alt="">
             </aside>
         </article>
     </section>
-    
-    
+    <footer>
+        &copy;Copyright 2019 Desarrollado por Luian Diaz
+    </footer>
+
 </body>
+
 </html>
