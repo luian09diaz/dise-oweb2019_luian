@@ -2,7 +2,7 @@
 <html lang="es">
 
 <head>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -20,7 +20,7 @@
 
             </div>
 
-            
+
             <div id="search-wrapper">
                 <input type="search" id="search" placeholder="Buscar" />
                 <i class="fa fa-search"></i>
@@ -36,31 +36,62 @@
 
     <!--Contenidos-->
     <section class="container">
+        <aside class="left"><i class="fa fa-bars" aria-hidden="true"></i>Menu <br>
+            <a href="#"><i class="fa fa-gamepad" aria-hidden="true"></i>Juegos</a>
+            <hr>
+            <a href="#"><i class="fa fa-file-text-o" aria-hidden="true"></i>Paginas</a>
+            <hr>
+            <a href="#"><i class="fa fa-users" aria-hidden="true"></i>Grupos</a>
+            <hr>
+            <a href="#"><i class="fa fa-info-circle" aria-hidden="true"></i>Infomacion</a>
+            <hr>
+            <a href="#"><i class="fa fa-picture-o" aria-hidden="true"></i>Fotos</a>
+            <hr>
+            <a href="#"> <i class="fa fa-globe" aria-hidden="true"></i>Publicaciones</a>
+        </aside>
         <article>
-            <aside class="left">Menu <br>
-                <a href="#">Juegos</a>
-                <br>
-                <a href="#">Paginas</a>
-                <br>
-                <a href="#">Grupos</a>
-                <br>
-                <a href="#">Infomacion</a>
-                <br>
-                <a href="#">Fotos</a>
-                <br>
-                <a href="#">Publicaciones</a>
-            </aside>
-
             <div class="center">
-                <button class="btn" onclick="myFunction()">Me gusta</button>Centro de pagina
-
-            </div>
-
-            <aside class="right">Anuncios
-                <img src="../imagenes/heart.gif" alt="">
-            </aside>
+                <div class="chatbox">
+                    <div class="chatlogs">
+                        <div class="chat friend">
+                            <div class="user-photo"> <img src="../imagenes/Cuenta.jpg" alt="persona1"></div>
+                            <p class="chat-message">Waht's up, Brother...!!! </p>
+                        </div>
+                        <div class="chat self">
+                            <div class="user-photo"> <img src="../imagenes/luian.png" alt="persona2"></div>
+                            <p class="chat-message">Waht's up...!!! </p>
+                        </div>
+                        <div class="chat friend">
+                            <div class="user-photo"><img src="../imagenes/Cuenta.jpg" alt="persona1"></div>
+                            <p class="chat-message">Se me da;o la pantalla de mi tablet la dejaron caer y esta toda
+                                cuarteada y el touch sirbe en una sola ezquina creo no se cuanto salga arreglar eso y
+                                aparte aun no an arreglado la plasma ya tu sabes que dolor de cabeza chaval!! </p>
+                        </div>
+                        <div class="chat self">
+                            <div class="user-photo"> <img src="../imagenes/luian.png" alt="persona2"></div>
+                            <p class="chat-message">Bueh yo tendre que estudiar electronica y reparacion de todo eso
+                                para hacerme de dinero con ustedes por que a cada rato da;an algo :v </p>
+                        </div>
+                        <div class="chat friend">
+                            <div class="user-photo"><img src="../imagenes/Cuenta.jpg" alt="persona1"></div>
+                            <p class="chat-message">Hhahah Luian nomas piensas en hacer dinero :V </p>
+                        </div>
+                        <div class="chat self">
+                            <div class="user-photo"> <img src="../imagenes/luian.png" alt="persona2"></div>
+                            <p class="chat-message">Anja mijo los pobres somos asi solo pensamos en progresar! </p>
+                        </div>
+                    </div>
+                    <div class="chat-form">
+                        <textarea name="chat" id="" cols="30" rows="2"></textarea>
+                        <button>Send</button>
+                    </div>
+                </div>
         </article>
+        <aside class="right">Anuncios
+            <img src="../imagenes/heart.gif" alt="">
+        </aside>
     </section>
+    <hr>
     <footer>
         &copy;Copyright 2019 Desarrollado por Luian Diaz
     </footer>
